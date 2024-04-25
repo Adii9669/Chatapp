@@ -1,4 +1,5 @@
 import React from "react";
+import './Index.css';
 import {
   MDBContainer,
   MDBRow,
@@ -27,7 +28,6 @@ export default function Index() {
               <p className="mb-0 fw-bold">Live chat</p>
               <MDBIcon fas icon="times" />
             </MDBCardHeader>
-
             <MDBCardBody>
               <div className="d-flex flex-row justify-content-start mb-4">
                 <img
